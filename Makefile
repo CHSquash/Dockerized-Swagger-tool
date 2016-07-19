@@ -1,5 +1,2 @@
 build:
-	docker build -t swagger-tool -f Dockerfile .
-
-start:
-	docker run -d -p 8080:8080 swagger-tool
+	docker build -t chungho/swagger-tool -f Dockerfile .
